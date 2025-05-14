@@ -1,0 +1,591 @@
+{
+        "topic": "Python Giriş",
+        "question": "Python nedir ve ne amaçla kullanılır?",
+        "choices": ["Web geliştirme", "Veri analizi", "Yapay zeka", "Hepsi"],
+        "answer": "Hepsi"
+    },
+    {
+        "topic": "Python Giriş",
+        "question": "Python dilinin diğer dillere göre avantajlarından biri nedir?",
+        "choices": ["Öğrenmesi kolay olması", "Hızlı çalışması", "Görselleştirme için hazır kütüphaneler", "Tüm platformlarla uyumlu olması"],
+        "answer": "Öğrenmesi kolay olması"
+    },
+    {
+        "topic": "Python Sözdizimi",
+        "question": "Python'da kod bloğu nasıl tanımlanır?",
+        "choices": ["Süslü parantez {} ile", "Dört boşluk veya bir tab ile", "Noktalı virgül ; ile", "Parantez () ile"],
+        "answer": "Dört boşluk veya bir tab ile"
+    },
+    {
+        "topic": "Python Sözdizimi",
+        "question": "Python'da bir değişken nasıl tanımlanır?",
+        "choices": ["variable = 10", "var: 10", "var 10 =", "10 var ="],
+        "answer": "variable = 10"
+    },
+
+    {
+        "topic": "Python Değişkenleri",
+        "question": "Python'da bir değişkenin değeri nasıl değiştirilir?",
+        "choices": ["var = new_value", "new_value = var", "change var = new_value", "var := new_value"],
+        "answer": "var = new_value"
+    },
+
+    {
+        "topic": "Python Değişkenleri",
+        "question": "Python'da bir değişken ismi nasıl olmalıdır?",
+        "choices": ["Yalnızca sayılar içerebilir", "Boşluk karakteri içerebilir", "Sadece harf, rakam ve alt çizgi içerebilir", "Yalnızca harf içerebilir"],
+        "answer": "Sadece harf, rakam ve alt çizgi içerebilir"
+    },
+
+    {
+        "topic": "Python Veri Türleri",
+        "question": "Python'da bir sayının tam sayı kısmını almanın yolu nedir?",
+        "choices": ["floor()", "int()", "round()", "abs()"],
+        "answer": "int()"
+    },
+
+    {
+        "topic": "Python Veri Türleri",
+        "question": "Python'da bir değerin tipini nasıl öğrenirsiniz?",
+        "choices": ["type()", "id()", "check_type()", "is_type()"],
+        "answer": "type()"
+    },
+
+    {
+        "topic": "Python Listeleri",
+        "question": "Python'da bir listeyi nasıl tanımlarsınız?",
+        "choices": ["list = [1, 2, 3]", "list = (1, 2, 3)", "list = {1, 2, 3}", "list = <1, 2, 3>"],
+        "answer": "list = [1, 2, 3]"
+    },
+    {
+        "topic": "Python Listeleri",
+        "question": "Python'da bir listenin eleman sayısını öğrenmek için hangi fonksiyon kullanılır?",
+        "choices": ["count()", "len()", "size()", "length()"],
+        "answer": "len()"
+    },
+
+    {
+        "topic": "Python Tuple'ları",
+        "question": "Python'da bir tuple nasıl tanımlanır?",
+        "choices": ["tuple = (1, 2, 3)", "tuple = [1, 2, 3]", "tuple = {1, 2, 3}", "tuple = <1, 2, 3>"],
+        "answer": "tuple = (1, 2, 3)"
+    },
+    {
+        "topic": "Python Tuple'ları",
+        "question": "Aşağıdaki işlemlerden hangisi bir tuple üzerinde değişiklik yapmayı sağlar?",
+        "choices": ["tuple[0] = 10", "tuple.append(10)", "tuple[0] = 10", "Hiçbiri"],
+        "answer": "Hiçbiri"
+    },
+
+    {
+        "topic": "Python Setleri",
+        "question": "Python'da bir set nasıl tanımlanır?",
+        "choices": ["set = (1, 2, 3)", "set = [1, 2, 3]", "set = {1, 2, 3}", "set = <1, 2, 3>"],
+        "answer": "set = {1, 2, 3}"
+    },
+    {
+        "topic": "Python Setleri",
+        "question": "Aşağıdaki set işlemlerinden hangisi bir set'teki elemanları sıralar?",
+        "choices": ["set.sort()", "sorted(set)", "set.sort() sıralar", "Hiçbiri"],
+        "answer": "sorted(set)"
+    },
+  
+    {
+        "topic": "Python Sözlükleri",
+        "question": "Python'da bir sözlük (dictionary) nasıl tanımlanır?",
+        "choices": ["dict = {'a': 1, 'b': 2}", "dict = [1, 2, 3]", "dict = (1, 2, 3)", "dict = {1, 2, 3}"],
+        "answer": "dict = {'a': 1, 'b': 2}"
+    },
+    {
+        "topic": "Python Sözlükleri",
+        "question": "Python'da bir sözlükteki değere nasıl erişilir?",
+        "choices": ["dict['a']", "dict.a", "dict(0)", "dict[0]"],
+        "answer": "dict['a']"
+    },
+
+  
+    {
+        "topic": "İf , Else",
+        "question": "Python'da koşullu bir ifade nasıl yazılır?",
+        "choices": ["if x == 10:", "if (x == 10):", "if x == 10 then:", "if x = 10"],
+        "answer": "if x == 10:"
+    },
+    {
+        "topic": "İf , Else",
+        "question": "Aşağıdaki koşuldan hangisi doğruysa bir işlem yapar?\nif x < 10:\n    print('X smaller than 10')",
+        "choices": ["Evet", "Hayır", "Yalnızca sayı büyükse çalışır", "Yalnızca sayı eşitse çalışır"],
+        "answer": "Evet"
+    },
+   
+    {
+        "topic": "Match",
+        "question": "Python'da switch-case benzeri bir yapı var mı?",
+        "choices": ["Evet", "Hayır", "Evet, ancak sadece Python 3.10 ile", "Evet, ancak sadece özel kütüphanelerle"],
+        "answer": "Hayır"
+    },
+    {
+        "topic": "Match",
+        "question": "Python'da `match` ifadesi ile hangi veri yapıları karşılaştırılabilir?",
+        "choices": ["Listeler", "Sözlükler", "Veritabanları", "Veri tipleri"],
+        "answer": "Veri tipleri"
+    },
+    {
+        "topic": "While Loops",
+        "question": "Python'da while döngüsü nasıl çalışır?",
+        "choices": ["Koşul doğru olduğu sürece döngü çalışır", "Koşul yanlış olduğunda döngü çalışır", "Her zaman çalışır", "Yalnızca bir kez çalışır"],
+        "answer": "Koşul doğru olduğu sürece döngü çalışır"
+    },
+    {
+        "topic": "While Loops",
+        "question": "Aşağıdaki while döngüsünün doğru hali nedir?\n\nwhile x < 10:\n    print(x)",
+        "choices": ["while x < 10:\n    print(x)", "while x < 10: print(x)", "while(x < 10): print(x)", "while x > 10: print(x)"],
+        "answer": "while x < 10:\n    print(x)"
+    },
+    {
+        "topic": "For Loops",
+        "question": "Python'da for döngüsü nasıl tanımlanır?",
+        "choices": ["for x in range(10):", "for (x in range(10)):", "for range(10) x:", "for x 0 to 10:"],
+        "answer": "for x in range(10):"
+    },
+    {
+        "topic": "For Loops",
+        "question": "Aşağıdaki for döngüsü doğru mudur?\n\nfor i in range(1, 5):\n    print(i)",
+        "choices": ["Evet", "Hayır", "Evet, ancak i 1 yerine 0 olmalı", "Evet, ancak 5 yerine 6 olmalı"],
+        "answer": "Evet"
+    },
+
+    {
+        "topic": "Functions",
+        "question": "Python'da fonksiyon nasıl tanımlanır?",
+        "choices": ["def func():", "function func():", "fun func():", "func() =>"],
+        "answer": "def func():"
+    },
+    {
+        "topic": "Functions",
+        "question": "Aşağıdaki fonksiyon hangi sonucu döndürecektir?\n\ndef add(a, b):\n    return a + b\n\nadd(3, 4)",
+        "choices": ["7", "34", "None", "3 4"],
+        "answer": "7"
+    },
+
+ 
+    {
+        "topic": "Lambda",
+        "question": "Python'da lambda fonksiyonu nasıl tanımlanır?",
+        "choices": ["lambda x: x + 10", "def lambda(x): x + 10", "lambda(x) => x + 10", "func lambda(x) { return x + 10; }"],
+        "answer": "lambda x: x + 10"
+    },
+    {
+        "topic": "Lambda",
+        "question": "Aşağıdaki lambda fonksiyonunun çıktısı nedir?\n\nmultiply = lambda x, y: x * y\nprint(multiply(2, 3))",
+        "choices": ["6", "23", "None", "2 3"],
+        "answer": "6"
+    },
+
+  
+    {
+        "topic": "Sınıfları/Nesneleri",
+        "question": "Python'da sınıf nasıl tanımlanır?",
+        "choices": ["class MyClass:", "class MyClass{}:", "def MyClass:", "MyClass = class()"],
+        "answer": "class MyClass:"
+    },
+    {
+        "topic": "Sınıfları/Nesneleri",
+        "question": "Aşağıdaki sınıf ne yapar?\n\nclass Dog:\n    def __init__(self, name):\n        self.name = name\n    def bark(self):\n        print('Woof!')",
+        "choices": ["Bir köpek nesnesi oluşturur ve havlama fonksiyonunu ekler", "Bir kedinin adını ekler", "Bir isim değişkeni tanımlar", "Bir nesne tanımlamaz"],
+        "answer": "Bir köpek nesnesi oluşturur ve havlama fonksiyonunu ekler"
+    },
+    
+
+    {
+        "topic": "Inheritance",
+        "question": "Python'da miras nasıl uygulanır?",
+        "choices": ["class Child(Parent):", "class Child extends Parent:", "class Child inherits Parent:", "class Child -> Parent:"],
+        "answer": "class Child(Parent):"
+    },
+    {
+        "topic": "Inheritance",
+        "question": "Aşağıdaki kodun çıktısı nedir?\n\nclass Animal:\n    def speak(self):\n        print('Animal speaks')\nclass Dog(Animal):\n    def speak(self):\n        print('Woof')\n\ndog = Dog()\ndog.speak()",
+        "choices": ["Animal speaks", "Woof", "Animal barks", "Error"],
+        "answer": "Woof"
+    },
+    
+ 
+    {
+        "topic": "Yineleyicileri",
+        "question": "Python'da yineleyiciler nasıl tanımlanır?",
+        "choices": ["def __iter__():", "def __iter__(): yield", "def iter() yield:", "def loop():"],
+        "answer": "def __iter__(): yield"
+    },
+    {
+        "topic": "Yineleyicileri",
+        "question": "Aşağıdaki kodun çıktısı nedir?\n\nclass MyIterator:\n    def __init__(self, start, end):\n        self.current = start\n        self.end = end\n    def __iter__(self):\n        return self\n    def __next__(self):\n        if self.current >= self.end:\n            raise StopIteration\n        self.current += 1\n        return self.current\n\nmy_iter = MyIterator(1, 4)\nfor num in my_iter:\n    print(num)",
+        "choices": ["1 2 3", "1 2 3 4", "1 2", "Error"],
+        "answer": "1 2 3"
+    },
+    
+  
+    {
+        "topic": "Çok Biçimliliği",
+        "question": "Python'da çok biçimlilik nedir?",
+        "choices": ["Birden fazla sınıfı aynı türde birleştirmek", "Bir sınıfın aynı isme sahip birden fazla fonksiyonu olması", "Birden fazla nesne türünün bir arada çalışması", "Farklı türdeki nesneleri bir arada tutabilmek"],
+        "answer": "Bir sınıfın aynı isme sahip birden fazla fonksiyonu olması"
+    },
+    {
+        "topic": "Çok Biçimliliği",
+        "question": "Aşağıdaki çok biçimlilik örneği neyi gösterir?\n\nclass Dog:\n    def sound(self):\n        print('Woof')\nclass Cat:\n    def sound(self):\n        print('Meow')\n\nanimal = Dog()\nanimal.sound()",
+        "choices": ["Woof", "Meow", "Error", "Both Woof and Meow"],
+        "answer": "Woof"
+    },
+    
+
+    {
+        "topic": "Kapsamı",
+        "question": "Python'da değişkenin kapsamı (scope) nedir?",
+        "choices": ["Değişkenin kullanılabileceği alan", "Değişkenin türü", "Değişkenin değer aralığı", "Değişkenin referans adresi"],
+        "answer": "Değişkenin kullanılabileceği alan"
+    },
+    {
+        "topic": "Kapsamı",
+        "question": "Aşağıdaki kodun çıktısı nedir?\n\ndef outer():\n    x = 10\n    def inner():\n        print(x)\n    inner()\nouter()",
+        "choices": ["10", "Error", "None", "x"],
+        "answer": "10"
+    },
+    
+
+    {
+        "topic": "Modülleri",
+        "question": "Python'da bir modül nasıl import edilir?",
+        "choices": ["import module_name", "from module_name import", "require module_name", "use module_name"],
+        "answer": "import module_name"
+    },
+    {
+        "topic": "Modülleri",
+        "question": "Aşağıdaki hangi modül Python'da matematiksel hesaplamalar yapmak için kullanılır?",
+        "choices": ["math", "random", "os", "sys"],
+        "answer": "math"
+    },
+    {
+        "topic": "Tarihleri",
+        "question": "Python'da güncel tarihi almak için hangi modül kullanılır?",
+        "choices": ["datetime", "time", "calendar", "date"],
+        "answer": "datetime"
+    },
+    {
+        "topic": "Tarihleri",
+        "question": "Python'da bir tarihi nasıl formatlarsınız?",
+        "choices": ["date.format()", "datetime.strftime()", "date.strftime()", "datetime.format()"],
+        "answer": "datetime.strftime()"
+    },
+
+    {
+        "topic": "Matematik",
+        "question": "Python'da sayıları yuvarlamak için hangi fonksiyon kullanılır?",
+        "choices": ["round()", "math.ceil()", "math.floor()", "math.trunc()"],
+        "answer": "round()"
+    },
+    {
+        "topic": "Matematik",
+        "question": "Python'da karekök almak için hangi fonksiyon kullanılır?",
+        "choices": ["math.sqrt()", "math.power()", "math.sqroot()", "sqrt()"],
+        "answer": "math.sqrt()"
+    },
+
+
+    {
+        "topic": "JSON",
+        "question": "Python'da bir Python sözlüğünü JSON formatına çevirmek için hangi modül kullanılır?",
+        "choices": ["json", "xml", "pickle", "yaml"],
+        "answer": "json"
+    },
+    {
+        "topic": "JSON",
+        "question": "Aşağıdaki JSON verisini bir Python sözlüğüne çevirmek için hangi fonksiyon kullanılır?\n\nimport json\njson_str = '{\"name\": \"John\", \"age\": 30}'",
+        "choices": ["json.load()", "json.dumps()", "json.loads()", "json.loads(str)"],
+        "answer": "json.loads()"
+    },
+
+   
+    {
+        "topic": "Düzenli İfade",
+        "question": "Python'da düzenli ifadeler için hangi modül kullanılır?",
+        "choices": ["re", "regex", "pattern", "exp"],
+        "answer": "re"
+    },
+    {
+        "topic": "Düzenli İfade",
+        "question": "Aşağıdaki düzenli ifade örneği hangi amaca hizmet eder?\n\nimport re\npattern = '[A-Za-z]+'\ntext = 'Python is fun'\nmatches = re.findall(pattern, text)",
+        "choices": ["Alfabetik karakterleri bulur", "Sayısal karakterleri bulur", "Tüm metni bulur", "Yalnızca boşlukları bulur"],
+        "answer": "Alfabetik karakterleri bulur"
+    },
+
+   
+    {
+        "topic": "PIP",
+        "question": "Python'da paketleri yüklemek için hangi komut kullanılır?",
+        "choices": ["pip install package_name", "python install package_name", "python package install", "pip get package_name"],
+        "answer": "pip install package_name"
+    },
+    {
+        "topic": "PIP",
+        "question": "Aşağıdaki komutlardan hangisi Python'da yüklü paketleri listeler?",
+        "choices": ["pip list", "pip show", "pip search", "python packages"],
+        "answer": "pip list"
+    },
+
+    {
+        "topic": "Try , Except",
+        "question": "Python'da bir kod bloğu, hata oluştuğunda hangi ifadeyle çalıştırılabilir?",
+        "choices": ["try...except", "catch...finally", "error...except", "throw...catch"],
+        "answer": "try...except"
+    },
+    {
+        "topic": "Try , Except",
+        "question": "Aşağıdaki kod bloğu ne işe yarar?\n\ntry:\n    x = 1 / 0\nexcept ZeroDivisionError:\n    print('Cannot divide by zero')",
+        "choices": ["Sıfıra bölme hatasını yakalar", "İfadenin doğru olduğunu kontrol eder", "Bir dosya okuma hatasını yakalar", "Hata mesajını ekrana yazdırmaz"],
+        "answer": "Sıfıra bölme hatasını yakalar"
+    },
+
+ 
+    {
+        "topic": "Kullanıcı Girişi",
+        "question": "Python'da kullanıcıdan veri almak için hangi fonksiyon kullanılır?",
+        "choices": ["input()", "read()", "get()", "scan()"],
+        "answer": "input()"
+    },
+    {
+        "topic": "Kullanıcı Girişi",
+        "question": "Aşağıdaki kod ne yapar?\n\nname = input('What is your name?')\nprint('Hello, ' + name)",
+        "choices": ["Kullanıcıdan isim alır ve ekrana yazdırır", "Sadece 'Hello' yazar", "Kullanıcıdan yaş alır ve yazdırır", "Yalnızca ismi alır ve saklar"],
+        "answer": "Kullanıcıdan isim alır ve ekrana yazdırır"
+    },
+
+    {
+        "topic": "Dize Biçimlendirme",
+        "question": "Python'da bir dizeyi biçimlendirmek için hangi yöntem kullanılır?",
+        "choices": ["f-string", "format()", "concatenate()", "join()"],
+        "answer": "f-string"
+    },
+    {
+        "topic": "Dize Biçimlendirme",
+        "question": "Aşağıdaki f-string örneği neyi gösterir?\n\nname = 'Alice'\nage = 25\nprint(f'My name is {name} and I am {age} years old.')",
+        "choices": ["'My name is Alice and I am 25 years old.'", "'My name is {name} and I am {age} years old.'", "'My name is Alice and I am {25} years old.'", "'Name Alice and age 25.'"],
+        "answer": "'My name is Alice and I am 25 years old.'"
+    },
+
+  
+    {
+        "topic": "Functions",
+        "question": "Python'da fonksiyon nasıl tanımlanır?",
+        "choices": ["def func():", "function func():", "fun func():", "func() =>"],
+        "answer": "def func():"
+    },
+    {
+        "topic": "Functions",
+        "question": "Aşağıdaki fonksiyon hangi sonucu döndürecektir?\n\ndef add(a, b):\n    return a + b\n\nadd(3, 4)",
+        "choices": ["7", "34", "None", "3 4"],
+        "answer": "7"
+    },
+
+
+    {
+        "topic": "Lambda",
+        "question": "Python'da lambda fonksiyonu nasıl tanımlanır?",
+        "choices": ["lambda x: x + 10", "def lambda(x): x + 10", "lambda(x) => x + 10", "func lambda(x) { return x + 10; }"],
+        "answer": "lambda x: x + 10"
+    },
+    {
+        "topic": "Lambda",
+        "question": "Aşağıdaki lambda fonksiyonunun çıktısı nedir?\n\nmultiply = lambda x, y: x * y\nprint(multiply(2, 3))",
+        "choices": ["6", "23", "None", "2 3"],
+        "answer": "6"
+    },
+
+ 
+    {
+        "topic": "Sınıfları/Nesneleri",
+        "question": "Python'da sınıf nasıl tanımlanır?",
+        "choices": ["class MyClass:", "class MyClass{}:", "def MyClass:", "MyClass = class()"],
+        "answer": "class MyClass:"
+    },
+    {
+        "topic": "Sınıfları/Nesneleri",
+        "question": "Aşağıdaki sınıf ne yapar?\n\nclass Dog:\n    def __init__(self, name):\n        self.name = name\n    def bark(self):\n        print('Woof!')",
+        "choices": ["Bir köpek nesnesi oluşturur ve havlama fonksiyonunu ekler", "Bir kedinin adını ekler", "Bir isim değişkeni tanımlar", "Bir nesne tanımlamaz"],
+        "answer": "Bir köpek nesnesi oluşturur ve havlama fonksiyonunu ekler"
+    },
+  
+    {
+        "topic": "Inheritance",
+        "question": "Python'da miras nasıl uygulanır?",
+        "choices": ["class Child(Parent):", "class Child extends Parent:", "class Child inherits Parent:", "class Child -> Parent:"],
+        "answer": "class Child(Parent):"
+    },
+    {
+        "topic": "Inheritance",
+        "question": "Aşağıdaki kodun çıktısı nedir?\n\nclass Animal:\n    def speak(self):\n        print('Animal speaks')\nclass Dog(Animal):\n    def speak(self):\n        print('Woof')\n\ndog = Dog()\ndog.speak()",
+        "choices": ["Animal speaks", "Woof", "Animal barks", "Error"],
+        "answer": "Woof"
+    },
+  
+    {
+        "topic": "Yineleyicileri",
+        "question": "Python'da yineleyiciler nasıl tanımlanır?",
+        "choices": ["def __iter__():", "def __iter__(): yield", "def iter() yield:", "def loop():"],
+        "answer": "def __iter__(): yield"
+    },
+    {
+        "topic": "Yineleyicileri",
+        "question": "Aşağıdaki kodun çıktısı nedir?\n\nclass MyIterator:\n    def __init__(self, start, end):\n        self.current = start\n        self.end = end\n    def __iter__(self):\n        return self\n    def __next__(self):\n        if self.current >= self.end:\n            raise StopIteration\n        self.current += 1\n        return self.current\n\nmy_iter = MyIterator(1, 4)\nfor num in my_iter:\n    print(num)",
+        "choices": ["1 2 3", "1 2 3 4", "1 2", "Error"],
+        "answer": "1 2 3"
+    },
+    
+ 
+    {
+        "topic": "Çok Biçimliliği",
+        "question": "Python'da çok biçimlilik nedir?",
+        "choices": ["Birden fazla sınıfı aynı türde birleştirmek", "Bir sınıfın aynı isme sahip birden fazla fonksiyonu olması", "Birden fazla nesne türünün bir arada çalışması", "Farklı türdeki nesneleri bir arada tutabilmek"],
+        "answer": "Bir sınıfın aynı isme sahip birden fazla fonksiyonu olması"
+    },
+    {
+        "topic": "Çok Biçimliliği",
+        "question": "Aşağıdaki çok biçimlilik örneği neyi gösterir?\n\nclass Dog:\n    def sound(self):\n        print('Woof')\nclass Cat:\n    def sound(self):\n        print('Meow')\n\nanimal = Dog()\nanimal.sound()",
+        "choices": ["Woof", "Meow", "Error", "Both Woof and Meow"],
+        "answer": "Woof"
+    },
+    
+ 
+    {
+        "topic": "Kapsamı",
+        "question": "Python'da değişkenin kapsamı (scope) nedir?",
+        "choices": ["Değişkenin kullanılabileceği alan", "Değişkenin türü", "Değişkenin değer aralığı", "Değişkenin referans adresi"],
+        "answer": "Değişkenin kullanılabileceği alan"
+    },
+    {
+        "topic": "Kapsamı",
+        "question": "Aşağıdaki kodun çıktısı nedir?\n\ndef outer():\n    x = 10\n    def inner():\n        print(x)\n    inner()\nouter()",
+        "choices": ["10", "Error", "None", "x"],
+        "answer": "10"
+    },
+ 
+    {
+        "topic": "Modülleri",
+        "question": "Python'da bir modül nasıl import edilir?",
+        "choices": ["import module_name", "from module_name import", "require module_name", "use module_name"],
+        "answer": "import module_name"
+    },
+    {
+        "topic": "Modülleri",
+        "question": "Aşağıdaki hangi modül Python'da matematiksel hesaplamalar yapmak için kullanılır?",
+        "choices": ["math", "random", "os", "sys"],
+        "answer": "math"
+    },
+
+    {
+        "topic": "Tarihleri",
+        "question": "Python'da güncel tarihi almak için hangi modül kullanılır?",
+        "choices": ["datetime", "time", "calendar", "date"],
+        "answer": "datetime"
+    },
+    {
+        "topic": "Tarihleri",
+        "question": "Python'da bir tarihi nasıl formatlarsınız?",
+        "choices": ["date.format()", "datetime.strftime()", "date.strftime()", "datetime.format()"],
+        "answer": "datetime.strftime()"
+    },
+
+  
+    {
+        "topic": "Matematik",
+        "question": "Python'da sayıları yuvarlamak için hangi fonksiyon kullanılır?",
+        "choices": ["round()", "math.ceil()", "math.floor()", "math.trunc()"],
+        "answer": "round()"
+    },
+    {
+        "topic": "Matematik",
+        "question": "Python'da karekök almak için hangi fonksiyon kullanılır?",
+        "choices": ["math.sqrt()", "math.power()", "math.sqroot()", "sqrt()"],
+        "answer": "math.sqrt()"
+    },
+
+    {
+        "topic": "JSON",
+        "question": "Python'da bir Python sözlüğünü JSON formatına çevirmek için hangi modül kullanılır?",
+        "choices": ["json", "xml", "pickle", "yaml"],
+        "answer": "json"
+    },
+    {
+        "topic": "JSON",
+        "question": "Aşağıdaki JSON verisini bir Python sözlüğüne çevirmek için hangi fonksiyon kullanılır?\n\nimport json\njson_str = '{\"name\": \"John\", \"age\": 30}'",
+        "choices": ["json.load()", "json.dumps()", "json.loads()", "json.loads(str)"],
+        "answer": "json.loads()"
+    },
+
+ 
+    {
+        "topic": "Düzenli İfade",
+        "question": "Python'da düzenli ifadeler için hangi modül kullanılır?",
+        "choices": ["re", "regex", "pattern", "exp"],
+        "answer": "re"
+    },
+    {
+        "topic": "Düzenli İfade",
+        "question": "Aşağıdaki düzenli ifade örneği hangi amaca hizmet eder?\n\nimport re\npattern = '[A-Za-z]+'\ntext = 'Python is fun'\nmatches = re.findall(pattern, text)",
+        "choices": ["Alfabetik karakterleri bulur", "Sayısal karakterleri bulur", "Tüm metni bulur", "Yalnızca boşlukları bulur"],
+        "answer": "Alfabetik karakterleri bulur"
+    },
+
+  
+    {
+        "topic": "PIP",
+        "question": "Python'da paketleri yüklemek için hangi komut kullanılır?",
+        "choices": ["pip install package_name", "python install package_name", "python package install", "pip get package_name"],
+        "answer": "pip install package_name"
+    },
+    {
+        "topic": "PIP",
+        "question": "Aşağıdaki komutlardan hangisi Python'da yüklü paketleri listeler?",
+        "choices": ["pip list", "pip show", "pip search", "python packages"],
+        "answer": "pip list"
+    }, 
+
+    {
+        "topic": "Try , Except",
+        "question": "Python'da bir kod bloğu, hata oluştuğunda hangi ifadeyle çalıştırılabilir?",
+        "choices": ["try...except", "catch...finally", "error...except", "throw...catch"],
+        "answer": "try...except"
+    },
+    {
+        "topic": "Try , Except",
+        "question": "Aşağıdaki kod bloğu ne işe yarar?\n\ntry:\n    x = 1 / 0\nexcept ZeroDivisionError:\n    print('Cannot divide by zero')",
+        "choices": ["Sıfıra bölme hatasını yakalar", "İfadenin doğru olduğunu kontrol eder", "Bir dosya okuma hatasını yakalar", "Hata mesajını ekrana yazdırmaz"],
+        "answer": "Sıfıra bölme hatasını yakalar"
+    },
+  
+    {
+        "topic": "Kullanıcı Girişi",
+        "question": "Python'da kullanıcıdan veri almak için hangi fonksiyon kullanılır?",
+        "choices": ["input()", "read()", "get()", "scan()"],
+        "answer": "input()"
+    },
+    {
+        "topic": "Kullanıcı Girişi",
+        "question": "Aşağıdaki kod ne yapar?\n\nname = input('What is your name?')\nprint('Hello, ' + name)",
+        "choices": ["Kullanıcıdan isim alır ve ekrana yazdırır", "Sadece 'Hello' yazar", "Kullanıcıdan yaş alır ve yazdırır", "Yalnızca ismi alır ve saklar"],
+        "answer": "Kullanıcıdan isim alır ve ekrana yazdırır"
+    },
+
+   
+    {
+        "topic": "Dize Biçimlendirme",
+        "question": "Python'da bir dizeyi biçimlendirmek için hangi yöntem kullanılır?",
+        "choices": ["f-string", "format()", "concatenate()", "join()"],
+        "answer": "f-string"
+    },
+    {
+        "topic": "Dize Biçimlendirme",
+        "question": "Aşağıdaki f-string örneği neyi gösterir?\n\nname = 'Alice'\nage = 25\nprint(f'My name is {name} and I am {age} years old.')",
+        "choices": ["'My name is Alice and I am 25 years old.'", "'My name is {name} and I am {age} years old.'", "'My name is Alice and I am {25} years old.'", "'Name Alice and age 25.'"],
+        "answer": "'My name is Alice and I am 25 years old.'"
+    }
+    ]
