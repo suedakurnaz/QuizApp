@@ -1,0 +1,86 @@
+[
+  {
+    "username": "bet",
+    "avatar": "avatar_8.png",
+    "results": {
+      "Düzenli İfade": {
+        "correct": 3,
+        "total": 4
+      },
+      "While Loops": {
+        "correct": 1,
+        "total": 2
+      },
+      "İf , Else": {
+        "correct": 2,
+        "total": 2
+      },
+      "Modülleri": {
+        "correct": 2,
+        "total": 4
+      }
+    }
+  },
+  {
+    "username": "ss",
+    "avatar": "avatar_3.png",
+    "results": {
+      "Python Listeleri": {
+        "correct": 1,
+        "total": 3
+      },
+      "Modülleri": {
+        "correct": 4,
+        "total": 4
+      }
+    }
+  },
+  {
+    "username": "sueda",
+    "avatar": "avatar_3.png",
+    "results": {
+      "İf , Else": {
+        "correct": 1,
+        "total": 2
+      },
+      "Düzenli İfade": {
+        "correct": 0,
+        "total": 4
+      },
+      "Çok Biçimliliği": {
+        "correct": 2,
+        "total": 4
+      }
+    }
+  },
+  {
+    "username": "sas",
+    "avatar": "avatar_8.png",
+    "results": {}
+  },
+  {
+    "username": "sd",
+    "avatar": "avatar_2.png",
+    "results": {}
+  },
+  {
+    "username": "sdf",
+    "avatar": "avatar_3.png",
+    "results": {}
+  },
+  {
+    "username": "asd",
+    "avatar": "avatar_2.png",
+    "results": {}
+  },
+  {
+    "username": "srd",
+    "avatar": "avatar_5.png",
+    "results": {}
+  },
+  {
+    "username": "eww",
+    "avatar": "avatar_2.png",
+    "results": {}
+  }
+]
